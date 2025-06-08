@@ -1,6 +1,6 @@
 - name: basic server setup
   hosts: local
-  become: true
+  become: false
   tasks:
    - name: example
      debug: 
